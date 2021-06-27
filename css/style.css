@@ -133,11 +133,11 @@ h1 {
 }
 
 .secSobrefr-contenedor {
-  background-image: url(../Imagenes/fondoRosa.jpg);
+  background-image: url(../Imagenes/fondoRosa.jpg) !important;
   padding-bottom: 20px;
   padding-top: 30px;
   border-top: solid 0.5px #000;
-  height: 400px;
+  min-height: 450px;
 }
 .secSobrefr-contenedor p {
   color: #000;
