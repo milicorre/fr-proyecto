@@ -1,0 +1,40 @@
+.footer {
+    background-color: #000;
+    margin-top: 20px;
+    padding-top: 10px; 
+    .contacto{
+        max-width:50%;
+        margin: auto; 
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-style: initial;
+        text-align: center;
+        list-style-position: inside;
+        
+        h2{
+            font-size: 25px;
+        
+        }
+        ul{
+            display: inline-block;
+            list-style-type: none;
+            li{
+                font-size: 20px;
+                padding-top: 10px;
+                &:hover{
+                    color:nth($colores, 2 )
+
+                }  
+                a{
+                    text-decoration: none;
+                    color: #fff; 
+                    &:hover{
+                        color:nth($colores, 2 )
+                    }
+     
+                }
+            }
+        }
+
+    }         
+}

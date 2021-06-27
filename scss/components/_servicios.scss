@@ -1,0 +1,69 @@
+
+
+.serviciosContenedor1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    max-width: 75%;
+    .divServ{
+        background-color:#fff;
+        width: 300px;
+        height: 465px;
+        padding: 10px 5px;
+        margin: 0 10px 30px;
+        box-sizing: content-box;
+        box-shadow: 1px 1px 11px 6px rgba(223,197,222,0.75); 
+        &:hover{
+            transform: scale(1.1) !important;
+        }
+        img{
+            margin: auto;
+            align-items: center;
+            border-radius: 10px; 
+            transition: all 1s;
+
+        }
+        .servicios-enlace{
+            color:black;
+            margin: auto; 
+            display: flex;
+            flex-direction: column;  
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            border-top: solid 1px #000;
+            margin-top: 5px;
+            a{
+             text-decoration: none;
+                h3{
+                    font-family:'Yellowtail', cursive;
+                    font-weight: lighter;
+                    color: #000; 
+                    text-align: center;
+                    &:hover{
+                        color:nth($colores, 3);
+                    }
+                }
+                .listadoServ{
+                    display:inline-block;
+                    margin-top: 10px;
+                    color: black;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                    font-weight: 800;
+                    list-style: none;
+                    list-style-position: inside;
+                    text-align: center;
+                    margin: auto;
+                    padding: 5px;
+                }
+            
+            }
+
+        }
+        
+    } 
+
+}
+
+
