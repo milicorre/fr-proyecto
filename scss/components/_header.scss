@@ -7,6 +7,11 @@
     z-index: 25;
     text-align: center;
 }
+@media only screen and (max-width:570px ){
+    .portada{
+        display: none;
+    }
+    }
 .contenedorLogoMenu {
     display: flex; 
     flex-direction: row;  

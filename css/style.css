@@ -15,6 +15,11 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 570px) {
+  .portada {
+    display: none;
+  }
+}
 .contenedorLogoMenu {
   display: flex;
   flex-direction: row;
@@ -63,7 +68,6 @@ h1 {
   padding: 10px 5px;
   margin: 0 10px 30px;
   box-sizing: content-box;
-  box-shadow: 1px 1px 11px 6px rgba(223, 197, 222, 0.75);
 }
 .serviciosContenedor1 .divServ:hover {
   transform: scale(1.1) !important;
@@ -133,6 +137,9 @@ h1 {
 }
 
 .secSobrefr-contenedor {
+  background-color: rgba(206, 182, 204, 0.75);
+  max-width: 75%;
+  margin: auto;
   padding-bottom: 20px;
   padding-top: 30px;
   border-top: solid 0.5px #000;
