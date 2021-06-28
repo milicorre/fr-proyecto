@@ -71,6 +71,8 @@ h1 {
 }
 .serviciosContenedor1 .divServ:hover {
   transform: scale(1.1) !important;
+  transition: all 1s;
+  box-shadow: 1px 1px 11px 6px rgba(223, 197, 222, 0.75);
 }
 .serviciosContenedor1 .divServ img {
   margin: auto;
@@ -138,7 +140,7 @@ h1 {
 
 .secSobrefr-contenedor {
   background-image: url(../Imagenes/fondoRosa.jpg);
-  /*background-color: rgba(206, 182, 204, 0.75);*/
+  /*background-color:nth($colores, 4 );*/
   max-width: 75%;
   margin: auto;
   padding-bottom: 20px;
