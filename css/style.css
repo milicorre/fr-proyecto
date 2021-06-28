@@ -139,8 +139,7 @@ h1 {
 }
 
 .secSobrefr-contenedor {
-  background-image: url(../Imagenes/fondoRosa.jpg);
-  /*background-color:nth($colores, 4 );*/
+  background-image:url(../Imagenes/fondoRosa.jpg);
   max-width: 75%;
   margin: auto;
   padding-bottom: 20px;

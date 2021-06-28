@@ -1,6 +1,5 @@
 .secSobrefr-contenedor {
-    background-image: url(../Imagenes/fondoRosa.jpg);
-    /*background-color:nth($colores, 4 );*/
+    background-image:url(../Imagenes/fondoRosa.jpg);
     @include container-body;
     padding-bottom:20px;
     padding-top: 30px;
