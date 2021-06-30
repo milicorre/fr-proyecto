@@ -237,10 +237,16 @@ h1 {
   box-sizing: content-box;
   padding: 40px 0px 40px;
 }
-.contenedor-trabajos img {
+.contenedor-trabajos .trabajos-item {
+  padding: 20px;
+  margin-top: 15px;
+}
+.contenedor-trabajos .trabajos-item img {
+  margin: auto;
+  padding-bottom: 10px;
   border-radius: 5px;
 }
-.contenedor-trabajos img:hover {
+.contenedor-trabajos .trabajos-item img:hover {
   transform: scale(1.3);
   transition: all 1s;
 }
