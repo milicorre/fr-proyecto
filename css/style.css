@@ -56,10 +56,14 @@ h1 {
 }
 
 .serviciosContenedor1 {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 80px;
   margin: auto;
   max-width: 75%;
+}
+.serviciosContenedor1 h2 {
+  margin-bottom: 2rem;
+  font-weight: bold;
 }
 .serviciosContenedor1 .divServ {
   background-color: #fff;
@@ -96,6 +100,7 @@ h1 {
 }
 .serviciosContenedor1 .divServ .servicios-enlace a h3 {
   font-family: "Yellowtail", cursive;
+  font-size: 2rem;
   font-weight: lighter;
   color: #000;
   text-align: center;
@@ -232,10 +237,10 @@ h1 {
 }
 
 .titulo-trabajos {
-  font-family: "Roboto", sans-serif;
   max-width: 75%;
   margin: auto;
   padding-top: 2rem;
+  font-weight: bold;
 }
 
 .contenedor-trabajos {
@@ -255,9 +260,13 @@ h1 {
 .contenedor-trabajos .trabajos-item img:hover {
   transform: scale(1.3);
   transition: all 1s;
+  box-shadow: 5px 5px 30px 10px rgba(180, 160, 180, 0.75);
 }
 .contenedor-trabajos .trabajos-item h3 {
   font-size: 2rem;
+}
+.contenedor-trabajos .trabajos-item h3:hover {
+  font-weight: bold;
 }
 
 .fototrabajo1 {

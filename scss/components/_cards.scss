@@ -1,6 +1,9 @@
 .container-cards{
     @include container-cards;
 }
+@media only screen and (max-width:570px ){
+   
+}
 
 .card-group{
     margin-bottom: 10px;
