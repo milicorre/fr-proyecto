@@ -2,6 +2,9 @@
     @include container-cards;
 }
 @media only screen and (max-width:570px ){
+    .container-cards{
+        width: 100vh;
+    }
    
 }
 
