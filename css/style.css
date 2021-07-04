@@ -134,13 +134,15 @@ h1 {
 .secProductos .secProductosText h4 {
   padding-bottom: 10px;
   text-align: center;
+  font-weight: bolder;
 }
 .secProductos .secProductosText p {
   text-indent: 1rem;
 }
-
-.carousel-item img {
-  padding: 25px;
+.secProductos .secProductosText p a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
 }
 
 .secSobrefr-contenedor {
