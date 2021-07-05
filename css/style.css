@@ -179,27 +179,26 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-style: initial;
   text-align: center;
-  list-style-position: inside;
 }
 .footer .contacto h2 {
   font-size: 25px;
 }
-.footer .contacto ul {
-  display: inline-block;
+.footer .contacto div {
   list-style-type: none;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
-.footer .contacto ul li {
-  font-size: 20px;
-  padding-top: 10px;
+.footer .contacto div li {
+  font-size: 18px;
 }
-.footer .contacto ul li:hover {
+.footer .contacto div li:hover {
   color: #ecb5d2;
 }
-.footer .contacto ul li a {
+.footer .contacto div li a {
   text-decoration: none;
   color: #fff;
 }
-.footer .contacto ul li a:hover {
+.footer .contacto div li a:hover {
   color: #ecb5d2;
 }
 
