@@ -58,6 +58,10 @@ h1 {
   color: #ecb5d2 !important;
 }
 
+.dropdown-menu {
+  min-width: auto;
+}
+
 .serviciosContenedor1 {
   padding-top: 60px;
   padding-bottom: 80px;
@@ -146,6 +150,9 @@ h1 {
   text-decoration: none;
   color: #000;
   font-weight: bolder;
+}
+.secProductos .secProductosText p a:hover {
+  text-shadow: 5px 5px 10px #a7688a;
 }
 
 .secSobrefr-contenedor {
